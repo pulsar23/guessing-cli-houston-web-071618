@@ -1,7 +1,7 @@
 # Code your solution here!
 def run_guessing_game
   
-loop do  
+#loop do  
   puts "Guess a number between 1 and 6"
   guess = gets.chomp
   
@@ -14,7 +14,7 @@ loop do
   else
     puts "The computer guessed #{random_num}."
   end
-end
+#end
 end
 
 
