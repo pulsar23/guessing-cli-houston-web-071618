@@ -9,7 +9,7 @@ loop do
   if guess == "exit"
     puts "Goodbye!"
     break
-  elsif guess == random_num
+  elsif guess.to_i == random_num
     puts "You guessed the correct number!"
   else
     puts "The computer guessed #{random_num}."
